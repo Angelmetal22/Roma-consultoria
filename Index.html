@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Roma consultoria </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    main {
+      margin: 20px;
+      text-align: center;
+    }
+    
+    button {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    #mensagem {
+      font-size: 24px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Roma consultoria</h1>
+  </header>
+  
+  <main>
+    <h2>Seja Bem-vindo!</h2>
+    <button onclick="mostrarMensagem()">Clique Aqui</button>
+    <div id="mensagem"></div>
+  </main>
+  
+  <script>
+    function mostrarMensagem() {
+      var mensagemElement = document.getElementById("mensagem");
+      mensagemElement.innerHTML = " Obrigado volte sempre !.";
+    }
+  </script>
+</body>
+</html>
